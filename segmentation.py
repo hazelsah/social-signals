@@ -34,6 +34,6 @@ def find_scenes(video_path, threshold=30.0):
 
 
 if __name__ == '__main__':
-    video_path = '1_06-Scene-186.mp4'
+    video_path = 'video.mp4'
     scenes = find_scenes(video_path)
     print(scenes)
